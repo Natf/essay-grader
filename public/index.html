@@ -1,0 +1,47 @@
+<html><head>
+  <meta charset="UTF-8">
+  <title>Essay Grader</title>
+<script src="jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="ml5.min.js"></script>
+    <script src="bundle.js"></script>
+    <script src="sketch.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="essays"></div>
+  <div class="parsed-essays" style="max-width:400px;"></div>
+  <h4>Enter an essay to check here</h4><br>
+  <textarea class="essay-input"></textarea><br>
+  <p>Select class level</p>
+  <select class="level">
+    <option value="1">li</option>
+    <option value="2">la</option>
+    <option value="3">ls</option>
+    <option value="4">mi</option>
+    <option value="5">ma</option>
+    <option value="6">ms</option>
+    <option value="7">pa</option>
+    <option value="8">ps</option>
+    <option value="9">pm</option>
+    <option value="10">primo</option>
+  </select><br>
+  <button class="check-essay">check</button><br>
+  <button class="check-spelling">check spelling</button><br>
+  <br>
+  <br>
+  <h4>Enter an essay to parse here</h4><br>
+  <textarea class="essay-add-input"></textarea><br>
+  <button class="load-essays">load essays</button><br>
+  <button class="train-models">train</button><br>
+  <button class="test-model">test</button><br>
+  <div class="essay-results"></div><br>
+  <br>
+  <br>
+  <button class="reload-training-data">recalculate training data</button><br>
+
+
+</body></html>

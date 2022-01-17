@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "compromise": "^13.11.4",
+    "express": "^4.17.1",
+    "flesch-kincaid": "github:daveross/flesch-kincaid",
+    "jquery": "^3.6.0",
+    "p5": "^1.4.0",
+    "typo-js": "^1.2.0"
+  },
+  "name": "essay-grader",
+  "version": "1.0.0",
+  "description": "machine learning project to grade essays",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "machine",
+    "learning",
+    "essay",
+    "grader",
+    "grade"
+  ],
+  "author": "Nathan Frend",
+  "license": "MIT"
+}
